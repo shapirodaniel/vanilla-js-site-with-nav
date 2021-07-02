@@ -82,7 +82,7 @@ document.getElementById('activePage').innerHTML = HomePage;
 const logIt = () => {
 	const name = document.getElementById('myName');
 	const message = document.getElementById('myMessage');
-	console.log('name is: ', name.value, '\n', 'message is: ', message.value);
+	console.log({ name: name.value, message: message.value });
 };
 
 // this event listener captures the submit button click through a process called "bubbling"
