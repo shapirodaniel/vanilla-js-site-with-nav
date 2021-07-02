@@ -5,17 +5,28 @@
 		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<link rel="stylesheet" href="./index.css" />
+		<link
+			href="https://fonts.googleapis.com/icon?family=Material+Icons"
+			rel="stylesheet"
+		/>
 		<script defer src="./script.js"></script>
 		<title>My Site</title>
 	</head>
 	<body>
 		<nav>
 			<div class="navLinks">
-				<span class="navLink" id="home">Home</span>
-				<span class="navLink" id="about">About</span>
-				<span class="navLink" id="contact">Contact</span>
+				<span class="navLink" id="home">
+					<i class="material-icons">home</i><span>Home</span>
+				</span>
+				<span class="navLink" id="about">
+					<i class="material-icons">person_outline</i><span>About</span>
+				</span>
+				<span class="navLink" id="contact">
+					<i class="material-icons">contact_page</i><span>Contact</span>
+				</span>
 			</div>
 		</nav>
+		<!-- we'll use this activePage div as our target for swapping in new pages -->
 		<div id="activePage"></div>
 	</body>
 </html>
