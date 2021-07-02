@@ -68,7 +68,6 @@ form {
 form input,
 form textarea {
 	border: 1px solid lightgrey;
-
 	padding: 1em;
 	width: 300px;
 	margin-bottom: 2em;
@@ -76,7 +75,7 @@ form textarea {
 	font-size: 16px;
 }
 form label {
-	width: 400px;
+	width: 300px;
 	text-align: left;
 	opacity: 0.5;
 	font-size: 14px;
@@ -92,7 +91,7 @@ form textarea {
 form button {
 	border: transparent;
 	padding: 1em;
-	width: 400px;
+	width: 300px;
 	border-radius: 5px;
 	font-size: 18px;
 }
